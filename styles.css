@@ -1,56 +1,61 @@
-.back{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-padding: 0%;
-margin: 0%;
-width: 100%;
-height: 100vh;
-/* background-image: url('./advice.jpg'); */
-background: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url(./advice.jpg);
-background-size: cover;
-background-repeat: no-repeat; 
-max-width: 100%;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-#results{
-position:fixed;
-display: flex;
-justify-content: center;
-align-items: center;
-max-width: 200px;
-max-width: 400px;
-width: 600px;
-height: 200px;
-top: 12%;
-font-family: 'Playfair Display', serif;
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 48px;
-text-align: center;
-color: #FFFFFF;
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)),
+    url(./advice.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
 
-.btn{
-display: flex;
-justify-content: center; 
-text-align: center;   
-align-items: center;
-width: 364px;
-height: 68px;
-top: 200px;
-background: #FFF4DF;
-border-radius: 12px;
+#results {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  max-width: 400px;
+  width: 600px;
+  height: 200px;
+  top: 12%;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
 }
 
-#getData{
-text-align: center;
-justify-content: center;
-align-items: center;
-font-family: 'Playfair Display', serif;
-font-weight: 700;
-font-size: 32px;
-line-height: 43px;
-color: #3A2F1E;
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 364px;
+  height: 68px;
+  top: 200px;
+  background: #fff4df;
+  border-radius: 12px;
+}
+
+#getData {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 43px;
+  color: #3a2f1e;
 }
